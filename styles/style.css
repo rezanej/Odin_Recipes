@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ca28f345;
+}
+.title , .links-list{
+    text-align: center;
+}
+.title{
+    background-color: #a1cf45af;
+    text-align: center;
+    padding: 10px;
+    color: rgb(14, 91, 159);
+}
+.links-list{
+    background-color: #e9ce6073;
+    list-style:none;
+}
+.links-list a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: rgb(59, 124, 208);
+}
+.links-list li{
+    border: 2px beige solid;
+    padding:20px ;
+}
