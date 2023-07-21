@@ -55,4 +55,14 @@ body {
    align-items: center;
    margin: auto;
 }
-
+.back{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    text-align: center;
+    display: block;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    /* i know i can use width to make it not take whole width and be like a button */
+}
