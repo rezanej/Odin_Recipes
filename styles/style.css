@@ -1,31 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6em;
 }
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #ca28f345;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ca28f345;
 }
-.title , .links-list{
-    text-align: center;
+.title,
+.links-list {
+  text-align: center;
 }
-.title{
-    background-color: #a1cf45af;
-    text-align: center;
-    padding: 10px;
-    color: rgb(14, 91, 159);
+.title {
+  background-color: #a1cf45af;
+  text-align: center;
+  padding: 10px;
+  color: rgb(14, 91, 159);
 }
-.links-list{
-    background-color: #e9ce6073;
-    list-style:none;
+.links-list {
+  background-color: #e9ce6073;
+  list-style: none;
 }
 .links-list a {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    color: rgb(59, 124, 208);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color: rgb(59, 124, 208);
 }
-.links-list li{
-    border: 2px beige solid;
-    padding:20px ;
+.links-list li {
+  border: 2px beige solid;
+  padding: 20px;
 }
+
+.sub-title {
+  padding: 20px 0px 5px 6px;
+}
+.description {
+  padding: 10px 6px;
+}
+.ingredients {
+  padding-left: 6px;
+  list-style: disc;
+  margin-left: 20px;
+}
+.directions{
+    padding-left: 6px;
+    margin-left: 20px;
+}
+.directions p {
+    padding: 5px 0;
+}
+.image{
+    display: block;
+   align-items: center;
+   margin: auto;
+}
+
