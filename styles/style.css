@@ -69,7 +69,8 @@ body {
 .image{
   display: block;
    align-items: center;
-   margin: auto;
+   margin: 10px auto;
+   border-radius: 20px;
 }
 .back{
     background-color: black;
