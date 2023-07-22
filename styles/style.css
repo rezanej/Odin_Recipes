@@ -6,7 +6,7 @@
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #ca28f345;
+  background-color: #BDE0FE;
 }
 .container{
     width: 70%;
@@ -20,13 +20,13 @@ body {
   text-align: center;
 }
 .title {
-  background-color: #a1cf45af;
+  background-color: #FFAFCC;
   text-align: center;
   padding: 10px;
-  color: rgb(14, 91, 159);
+  color: #023047;
 }
 .links-list {
-  background-color: #e9ce6073;
+  background-color: #ffd60a;
   list-style: none;
 }
 .links-list a {
