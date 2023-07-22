@@ -15,6 +15,9 @@ body {
     border-radius: 10px;
     padding: 20px;
 }
+.main-container{
+  border-radius: 0px 0px 20px 20px;
+}
 .title,
 .links-list {
   text-align: center;
@@ -26,17 +29,23 @@ body {
   color: #023047;
 }
 .links-list {
-  background-color: #ffd60a;
   list-style: none;
 }
 .links-list a {
+  display: block;
   text-decoration: underline;
   text-decoration-thickness: 2px;
   color: rgb(59, 124, 208);
+  padding: 40px 20px;
+  background-color:#b5e48c;
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 20px;
+
 }
 .links-list li {
-  border: 2px beige solid;
-  padding: 20px;
+  
 }
 
 .sub-title {
@@ -58,7 +67,7 @@ body {
     padding: 5px 0;
 }
 .image{
-    display: block;
+  display: block;
    align-items: center;
    margin: auto;
 }
